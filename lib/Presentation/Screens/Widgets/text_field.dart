@@ -22,7 +22,7 @@ class InputField extends StatelessWidget {
             borderRadius: BorderRadius.circular(5.5),
           ),
           prefixIcon: const Icon(Icons.person, color: Colors.blue),
-          hintText: "Enter your Name",
+          hintText: "Enter your name",
           hintStyle: const TextStyle(color: Colors.blue),
           filled: true,
           fillColor: Colors.blue[50],
