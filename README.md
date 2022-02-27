@@ -49,6 +49,12 @@ Visit my channel 👉 : https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ
 ```
 
   
+## Sample Results
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/58719230/155893486-efdbaa38-0fe6-44c7-a180-e54cdb13f207.png" width="250" height="500"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://user-images.githubusercontent.com/58719230/155893487-cef53b83-6019-441c-997e-eac71583ff4b.png" width="250" height="500">  
+</div> 
+  
   
 ## License
 
