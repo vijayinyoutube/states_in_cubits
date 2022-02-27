@@ -8,13 +8,15 @@ class SampleCubit extends Cubit<SampleState> {
 
   Future<void> displayData(String data) async {
     emit(const SampleLoading());
-    await Future.delayed(const Duration(seconds: 3), () {});
-    data.isNotEmpty ? emit(SampleLoaded(data)) : emit(SampleError());
+    await Future.delayed(const Duration(seconds: 3), () {
+      data.isNotEmpty ? emit(SampleLoaded(data)) : emit(SampleError());
+    });
   }
 
   Future<void> restartState() async {
     emit(const SampleLoading());
-    await Future.delayed(const Duration(seconds: 3), () {});
-    emit(const SampleInitial());
+    await Future.delayed(const Duration(seconds: 3), () {
+      emit(const SampleInitial());
+    });
   }
 }
